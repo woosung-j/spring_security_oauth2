@@ -7,3 +7,7 @@
 > * MariaDB + MyBatis
 > * JSP(Bootstrap, JQuery, jstl)
 
+## 로그인 목록
+> * Kakao
+> * Naver
+> * Google
