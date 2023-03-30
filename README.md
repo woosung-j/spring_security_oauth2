@@ -11,3 +11,16 @@
 > * Kakao
 > * Naver
 > * Google
+
+## 데이터베이스 테이블
+### users
+```SQL
+CREATE TABLE users (
+    user_id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    email varchar(50) NOT NULL UNIQUE,
+    password varchar(100),
+    name varchar(50) NOT NULL,
+    nickname varchar(50),
+    role varchar(50)
+);
+```
